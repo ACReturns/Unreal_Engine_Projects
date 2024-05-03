@@ -1,0 +1,14 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"F:/Github/Unreal_Engine_Projects/C++ Assignments/TemplatesAndBasics/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset",
+				"F:/Github/Unreal_Engine_Projects/C++ Assignments/TemplatesAndBasics/Content/StarterContent/Blueprints/BP_FinishLine.uasset",
+				"F:/Github/Unreal_Engine_Projects/C++ Assignments/TemplatesAndBasics/Content/__ExternalActors__/VehicleTemplate/Maps/VehicleExampleMap/B/P6/JKXY71HQGKEHBMA8LFRJLZ.uasset"
+			]
+		}
+	]
+}

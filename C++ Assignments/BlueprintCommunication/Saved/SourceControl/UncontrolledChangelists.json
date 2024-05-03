@@ -1,0 +1,24 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"F:/Github/Unreal_Engine_Projects/C++ Assignments/BlueprintCommunication/Content/BPCommunication/Maps/StartingMap.umap",
+				"F:/Github/Unreal_Engine_Projects/C++ Assignments/BlueprintCommunication/Content/BPCommunication/Blueprints/BP_Door.uasset",
+				"F:/Github/Unreal_Engine_Projects/C++ Assignments/BlueprintCommunication/Content/BPCommunication/Blueprints/BP_Door_Trigger.uasset",
+				"F:/Github/Unreal_Engine_Projects/C++ Assignments/BlueprintCommunication/Content/BPCommunication/Blueprints/BP_LeverDoor.uasset",
+				"F:/Github/Unreal_Engine_Projects/C++ Assignments/BlueprintCommunication/Content/BPCommunication/Blueprints/BP_Door_Lever.uasset",
+				"F:/Github/Unreal_Engine_Projects/C++ Assignments/BlueprintCommunication/Content/BPCommunication/Blueprints/BP_Trigger.uasset",
+				"F:/Github/Unreal_Engine_Projects/C++ Assignments/BlueprintCommunication/Content/BPCommunication/Blueprints/BP_Communications_Character.uasset",
+				"F:/Github/Unreal_Engine_Projects/C++ Assignments/BlueprintCommunication/Content/BPCommunication/Blueprints/BP_TriggerPickup.uasset",
+				"F:/Github/Unreal_Engine_Projects/C++ Assignments/BlueprintCommunication/Content/BPCommunication/Blueprints/BPI_Inventory.uasset",
+				"F:/Github/Unreal_Engine_Projects/C++ Assignments/BlueprintCommunication/Content/LearningKit_Games/Blueprints/PlayerCharacter/BPI_LearningKit_PlayerInteractions.uasset",
+				"F:/Github/Unreal_Engine_Projects/C++ Assignments/BlueprintCommunication/Content/BPCommunication/Blueprints/GM_BPCommunication.uasset",
+				"F:/Github/Unreal_Engine_Projects/C++ Assignments/BlueprintCommunication/Content/BPCommunication/UMG/UMG_PlayerUI.uasset",
+				"F:/Github/Unreal_Engine_Projects/C++ Assignments/BlueprintCommunication/Content/BPCommunication/Blueprints/BP_Door_Final.uasset"
+			]
+		}
+	]
+}
