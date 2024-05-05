@@ -1688,3 +1688,249 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.05.05-07.31.47:188][752]LogFileHelpers: InternalPromptForCheckoutAndSave took 93 ms (total: 1.25 sec)
 [2024.05.05-07.31.47:196][752]AssetCheck: New page: Asset Save: WB_GameOver
 [2024.05.05-07.31.47:196][752]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/WB_GameOver.WB_GameOver
+[2024.05.05-07.36.29:447][755]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2024.05.05-07.36.29:559][755]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap
+[2024.05.05-07.36.29:559][755]Cmd: MAP LOAD FILE="F:/Github/Unreal_Engine_Projects/C++ Assignments/DemoProject/Content/ThirdPerson/Maps/ThirdPersonMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.05.05-07.36.29:560][755]LightingResults: New page: Lighting Build
+[2024.05.05-07.36.29:560][755]LoadErrors: New page: Loading map: ThirdPersonMap.umap
+[2024.05.05-07.36.29:562][755]LogWorld: UWorld::CleanupWorld for GameOverMap, bSessionEnded=true, bCleanupResources=true
+[2024.05.05-07.36.29:562][755]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.05-07.36.29:562][755]MapCheck: New page: Map Check
+[2024.05.05-07.36.29:562][755]LightingResults: New page: Lighting Build
+[2024.05.05-07.36.29:619][755]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.05.05-07.36.29:622][755]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2024.05.05-07.36.29:624][755]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.05.05-07.36.29:625][755]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.05-07.36.29:689][755]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2024.05.05-07.36.29:744][755]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2024.05.05-07.36.29:799][755]LogAudio: Display: Audio Device (ID: 1) registered with world 'ThirdPersonMap'.
+[2024.05.05-07.36.29:799][755]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.05-07.36.29:800][755]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.05.05-07.36.29:801][755]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2024.05.05-07.36.29:801][755]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.05.05-07.36.29:801][755]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=1, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2024.05.05-07.36.29:986][755]LogContentBundle: [Container: ThirdPersonMap] Creating new contrainer.
+[2024.05.05-07.36.29:986][755]LogWorldPartition: Display: WorldPartition initialize took 185 ms (total: 2.01 sec)
+[2024.05.05-07.36.30:046][755]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.05.05-07.36.30:109][755]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2024.05.05-07.36.30:126][755]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.05.05-07.36.30:127][755]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.574ms to complete.
+[2024.05.05-07.36.30:127][755]LogFileHelpers: Loading map 'ThirdPersonMap' took 0.567
+[2024.05.05-07.36.33:746][814]LogShaderCompilers: Display: ================================================
+[2024.05.05-07.36.33:746][814]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.05.05-07.36.33:746][814]LogShaderCompilers: Display: Total job queries 136, among them cache hits 19 (13.97%)
+[2024.05.05-07.36.33:746][814]LogShaderCompilers: Display: Tracking 117 distinct input hashes that result in 93 distinct outputs (79.49%)
+[2024.05.05-07.36.33:747][814]LogShaderCompilers: Display: RAM used: 1.00 MB (0.00 GB) of 3276.80 MB (3.20 GB) budget. Usage: 0.03%
+[2024.05.05-07.36.33:747][814]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.05.05-07.36.33:747][814]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.05.05-07.36.33:747][814]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2024.05.05-07.36.33:747][814]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.05.05-07.36.33:747][814]LogShaderCompilers: Display: ================================================
+[2024.05.05-07.36.51:734][341]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.05.05-07.36.56:049][465]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cylinder.Cylinder
+[2024.05.05-07.36.56:049][465]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cylinder.Cylinder
+[2024.05.05-07.36.56:055][465]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cylinder.Cylinder as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_D8CB8AEFA4FB85F201_1684471119
+[2024.05.05-07.36.56:063][465]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cylinder.Cylinder as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_D8CB8AEFA4FB85F201_1684471119
+[2024.05.05-07.38.09:848][610]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ThirdPersonMap
+[2024.05.05-07.38.09:848][610]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.05-07.38.58:762][956]LogProperty: Warning: ClassProperty /Script/BlueprintGraph.K2Node_DynamicCast:TargetType: unresolved reference to '/Script/Engine.BlueprintGeneratedClass'"/Game/Hour_of_Code/Blueprints/Game/BP_HourOfCode_Game.BP_HourOfCode_Game_C"''
+[2024.05.05-07.38.58:782][956]LogProperty: Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to '/Script/Engine.BlueprintGeneratedClass'"/Game/Hour_of_Code/Blueprints/Game/BP_HourOfCode_Game.BP_HourOfCode_Game_C"',MemberName="W_HUD_ref",MemberGuid=B552EDE0464E7FFCC1468A81522F811A)'
+[2024.05.05-07.39.07:325][197]LogEditorTransaction: Undo Move Node
+[2024.05.05-07.40.14:307][686]BlueprintLog: New page: Compile ThirdPersonMap
+[2024.05.05-07.40.14:495][686]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2024.05.05-07.41.13:163][328]BlueprintLog: New page: Compile ThirdPersonMap
+[2024.05.05-07.41.13:307][328]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2024.05.05-07.41.45:293][236]BlueprintLog: New page: Compile ThirdPersonMap
+[2024.05.05-07.41.45:296][236]LogBlueprint: Error: [AssetLog] F:\Github\Unreal_Engine_Projects\C++ Assignments\DemoProject\Content\ThirdPerson\Maps\ThirdPersonMap.umap: [Compiler] Spawn node  Create Widget  must have a class specified.
+[2024.05.05-07.41.45:297][236]LogBlueprint: Error: [AssetLog] F:\Github\Unreal_Engine_Projects\C++ Assignments\DemoProject\Content\ThirdPerson\Maps\ThirdPersonMap.umap: [Compiler] Can't connect pins  Target  and  W HUD Ref : Widget Object Reference is not compatible with Object Reference.
+[2024.05.05-07.41.45:298][236]LogBlueprint: Error: [AssetLog] F:\Github\Unreal_Engine_Projects\C++ Assignments\DemoProject\Content\ThirdPerson\Maps\ThirdPersonMap.umap: [Compiler] Can't connect pins  W HUD Ref  and  Target : Object Reference is not compatible with Widget Object Reference.
+[2024.05.05-07.41.45:298][236]LogBlueprint: Warning: [AssetLog] F:\Github\Unreal_Engine_Projects\C++ Assignments\DemoProject\Content\ThirdPerson\Maps\ThirdPersonMap.umap: [Compiler] Could not find a variable named "W_HUD_ref" in 'ThirdPersonMap'.
+Make sure 'ThirdPersonMap' has been compiled for  Get W_HUD_ref
+[2024.05.05-07.41.45:448][236]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2024.05.05-07.42.00:521][604]LogSlate: Window 'Pick Root Widget for New Widget Blueprint' being destroyed
+[2024.05.05-07.42.00:535][604]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2024.05.05-07.42.00:541][604]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2024.05.05-07.42.00:547][605]LogAutomationController: Ignoring very large delta of 2.23 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.05.05-07.42.00:556][605]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
+[2024.05.05-07.42.14:102][  8]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> W_Victory
+[2024.05.05-07.42.14:110][  8]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2024.05.05-07.42.18:593][136]LogContentBrowser: Attempting asset rename: WB_GameOver -> WB_GameOver
+[2024.05.05-07.42.26:755][373]LogContentBrowser: Attempting asset rename: WB_GameOver -> W_GameOver
+[2024.05.05-07.42.26:804][373]LogMetaData: Removing '/Game/UI/W_GameOver.SKEL_W_GameOver_C' ref from Metadata '/Game/UI/WB_GameOver.PackageMetaData'
+[2024.05.05-07.42.26:804][373]LogMetaData: Removing '/Game/UI/W_GameOver.W_GameOver_C' ref from Metadata '/Game/UI/WB_GameOver.PackageMetaData'
+[2024.05.05-07.42.26:804][373]LogMetaData: Removing '/Game/UI/W_GameOver.W_GameOver:EventGraph.K2Node_Event_0' ref from Metadata '/Game/UI/WB_GameOver.PackageMetaData'
+[2024.05.05-07.42.26:804][373]LogMetaData: Removing '/Game/UI/W_GameOver.W_GameOver:EventGraph.K2Node_Event_1' ref from Metadata '/Game/UI/WB_GameOver.PackageMetaData'
+[2024.05.05-07.42.26:804][373]LogMetaData: Removing '/Game/UI/W_GameOver.W_GameOver:EventGraph.K2Node_Event_2' ref from Metadata '/Game/UI/WB_GameOver.PackageMetaData'
+[2024.05.05-07.42.26:804][373]LogMetaData: Removing '/Game/UI/W_GameOver.SKEL_W_GameOver_C:BndEvt__WB_GameOver_QuitButton_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/UI/WB_GameOver.PackageMetaData'
+[2024.05.05-07.42.26:804][373]LogMetaData: Removing '/Game/UI/W_GameOver.SKEL_W_GameOver_C:BndEvt__WB_GameOver_Button_0_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/UI/WB_GameOver.PackageMetaData'
+[2024.05.05-07.42.26:804][373]LogMetaData: Removing '/Game/UI/W_GameOver.SKEL_W_GameOver_C:Tick' ref from Metadata '/Game/UI/WB_GameOver.PackageMetaData'
+[2024.05.05-07.42.26:804][373]LogMetaData: Removing '/Game/UI/W_GameOver.SKEL_W_GameOver_C:Construct' ref from Metadata '/Game/UI/WB_GameOver.PackageMetaData'
+[2024.05.05-07.42.26:804][373]LogMetaData: Removing '/Game/UI/W_GameOver.SKEL_W_GameOver_C:PreConstruct' ref from Metadata '/Game/UI/WB_GameOver.PackageMetaData'
+[2024.05.05-07.42.26:815][373]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.05-07.42.26:883][373]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/W_GameOver" FILE="F:/Github/Unreal_Engine_Projects/C++ Assignments/DemoProject/Content/UI/W_GameOver.uasset" SILENT=true
+[2024.05.05-07.42.26:901][373]LogSavePackage: Moving output files for package: /Game/UI/W_GameOver
+[2024.05.05-07.42.26:901][373]LogSavePackage: Moving 'F:/Github/Unreal_Engine_Projects/C++ Assignments/DemoProject/Saved/W_GameOver071AC1F14616794950CC26A874E6DC99.tmp' to 'F:/Github/Unreal_Engine_Projects/C++ Assignments/DemoProject/Content/UI/W_GameOver.uasset'
+[2024.05.05-07.42.26:914][373]LogFileHelpers: InternalPromptForCheckoutAndSave took 98 ms (total: 1.35 sec)
+[2024.05.05-07.42.27:022][373]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2024.05.05-07.42.27:110][373]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2024.05.05-07.42.27:192][373]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.05.05-07.42.27:202][373]AssetCheck: New page: Asset Save: W_GameOver
+[2024.05.05-07.42.27:202][373]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/W_GameOver.W_GameOver
+[2024.05.05-07.42.32:843][536]LogContentBrowser: Attempting asset rename: WB_MainMenu -> W_MainMenu
+[2024.05.05-07.42.32:871][536]LogMetaData: Removing '/Game/UI/W_MainMenu.W_MainMenu_C' ref from Metadata '/Game/UI/WB_MainMenu.PackageMetaData'
+[2024.05.05-07.42.32:871][536]LogMetaData: Removing '/Game/UI/W_MainMenu.W_MainMenu:EventGraph.K2Node_Event_0' ref from Metadata '/Game/UI/WB_MainMenu.PackageMetaData'
+[2024.05.05-07.42.32:872][536]LogMetaData: Removing '/Game/UI/W_MainMenu.W_MainMenu:EventGraph.K2Node_Event_1' ref from Metadata '/Game/UI/WB_MainMenu.PackageMetaData'
+[2024.05.05-07.42.32:872][536]LogMetaData: Removing '/Game/UI/W_MainMenu.W_MainMenu:EventGraph.K2Node_Event_2' ref from Metadata '/Game/UI/WB_MainMenu.PackageMetaData'
+[2024.05.05-07.42.32:872][536]LogMetaData: Removing '/Game/UI/W_MainMenu.SKEL_W_MainMenu_C' ref from Metadata '/Game/UI/WB_MainMenu.PackageMetaData'
+[2024.05.05-07.42.32:872][536]LogMetaData: Removing '/Game/UI/W_MainMenu.SKEL_W_MainMenu_C:PreConstruct' ref from Metadata '/Game/UI/WB_MainMenu.PackageMetaData'
+[2024.05.05-07.42.32:872][536]LogMetaData: Removing '/Game/UI/W_MainMenu.SKEL_W_MainMenu_C:Construct' ref from Metadata '/Game/UI/WB_MainMenu.PackageMetaData'
+[2024.05.05-07.42.32:872][536]LogMetaData: Removing '/Game/UI/W_MainMenu.SKEL_W_MainMenu_C:Tick' ref from Metadata '/Game/UI/WB_MainMenu.PackageMetaData'
+[2024.05.05-07.42.32:872][536]LogMetaData: Removing '/Game/UI/W_MainMenu.SKEL_W_MainMenu_C:BndEvt__WB_MainMenu_Button_0_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/UI/WB_MainMenu.PackageMetaData'
+[2024.05.05-07.42.32:872][536]LogMetaData: Removing '/Game/UI/W_MainMenu.SKEL_W_MainMenu_C:BndEvt__WB_MainMenu_Button_1_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/UI/WB_MainMenu.PackageMetaData'
+[2024.05.05-07.42.32:872][536]LogMetaData: Removing '/Game/UI/W_MainMenu.W_MainMenu_C:Construct' ref from Metadata '/Game/UI/WB_MainMenu.PackageMetaData'
+[2024.05.05-07.42.32:886][536]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.05-07.42.32:980][536]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/W_MainMenu" FILE="F:/Github/Unreal_Engine_Projects/C++ Assignments/DemoProject/Content/UI/W_MainMenu.uasset" SILENT=true
+[2024.05.05-07.42.33:003][536]LogSavePackage: Moving output files for package: /Game/UI/W_MainMenu
+[2024.05.05-07.42.33:003][536]LogSavePackage: Moving 'F:/Github/Unreal_Engine_Projects/C++ Assignments/DemoProject/Saved/W_MainMenu6FF18E45411C9193C7C231B33D7B52AD.tmp' to 'F:/Github/Unreal_Engine_Projects/C++ Assignments/DemoProject/Content/UI/W_MainMenu.uasset'
+[2024.05.05-07.42.33:009][536]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WB_MainMenu" FILE="F:/Github/Unreal_Engine_Projects/C++ Assignments/DemoProject/Content/UI/WB_MainMenu.uasset" SILENT=true
+[2024.05.05-07.42.33:012][536]LogSavePackage: Moving output files for package: /Game/UI/WB_MainMenu
+[2024.05.05-07.42.33:013][536]LogSavePackage: Moving 'F:/Github/Unreal_Engine_Projects/C++ Assignments/DemoProject/Saved/WB_MainMenu586ECC7149930E0E576FE19410CD15EA.tmp' to 'F:/Github/Unreal_Engine_Projects/C++ Assignments/DemoProject/Content/UI/WB_MainMenu.uasset'
+[2024.05.05-07.42.33:025][536]LogFileHelpers: InternalPromptForCheckoutAndSave took 138 ms (total: 1.49 sec)
+[2024.05.05-07.42.33:042][536]AssetCheck: New page: Asset Save: multiple assets
+[2024.05.05-07.42.33:042][536]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/UI/WB_MainMenu.WB_MainMenu
+[2024.05.05-07.42.33:042][536]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/UI/WB_MainMenu.Default__WB_MainMenu_C
+[2024.05.05-07.42.33:042][536]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/UI/WB_MainMenu.WB_MainMenu_C
+[2024.05.05-07.42.33:042][536]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/W_MainMenu.W_MainMenu
+[2024.05.05-07.42.35:210][602]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/W_Victory.W_Victory
+[2024.05.05-07.42.35:210][602]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.05-07.42.35:261][602]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.05-07.42.36:044][602]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.05.05-07.42.36:044][602]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2024.05.05-07.43.59:234][898]BlueprintLog: New page: Compile W_Victory
+[2024.05.05-07.43.59:397][898]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2024.05.05-07.45.25:155][326]BlueprintLog: New page: Compile W_Victory
+[2024.05.05-07.45.25:278][326]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2024.05.05-07.45.26:560][356]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.05-07.45.26:670][356]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/W_Victory" FILE="F:/Github/Unreal_Engine_Projects/C++ Assignments/DemoProject/Content/UI/W_Victory.uasset" SILENT=true
+[2024.05.05-07.45.26:685][356]LogSavePackage: Moving output files for package: /Game/UI/W_Victory
+[2024.05.05-07.45.26:685][356]LogSavePackage: Moving 'F:/Github/Unreal_Engine_Projects/C++ Assignments/DemoProject/Saved/W_Victory5D9421BD4C19C89C9BBF629C21C9BF98.tmp' to 'F:/Github/Unreal_Engine_Projects/C++ Assignments/DemoProject/Content/UI/W_Victory.uasset'
+[2024.05.05-07.45.26:699][356]LogFileHelpers: InternalPromptForCheckoutAndSave took 138 ms (total: 1.63 sec)
+[2024.05.05-07.45.26:709][356]AssetCheck: New page: Asset Save: W_Victory
+[2024.05.05-07.45.26:709][356]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/W_Victory.W_Victory
+[2024.05.05-07.45.31:556][491]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.05.05-07.45.31:557][491]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.05.05-07.45.31:557][491]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.05.05-07.45.37:655][662]BlueprintLog: New page: Compile ThirdPersonMap
+[2024.05.05-07.45.37:657][662]LogBlueprint: Error: [AssetLog] F:\Github\Unreal_Engine_Projects\C++ Assignments\DemoProject\Content\ThirdPerson\Maps\ThirdPersonMap.umap: [Compiler] Can't connect pins  Target  and  W HUD Ref : Widget Object Reference is not compatible with Object Reference.
+[2024.05.05-07.45.37:657][662]LogBlueprint: Error: [AssetLog] F:\Github\Unreal_Engine_Projects\C++ Assignments\DemoProject\Content\ThirdPerson\Maps\ThirdPersonMap.umap: [Compiler] Can't connect pins  W HUD Ref  and  Target : Object Reference is not compatible with Widget Object Reference.
+[2024.05.05-07.45.37:657][662]LogBlueprint: Warning: [AssetLog] F:\Github\Unreal_Engine_Projects\C++ Assignments\DemoProject\Content\ThirdPerson\Maps\ThirdPersonMap.umap: [Compiler] Could not find a variable named "W_HUD_ref" in 'ThirdPersonMap'.
+Make sure 'ThirdPersonMap' has been compiled for  Get W_HUD_ref
+[2024.05.05-07.45.37:658][662]LogBlueprint: Error: [AssetLog] F:\Github\Unreal_Engine_Projects\C++ Assignments\DemoProject\Content\ThirdPerson\Maps\ThirdPersonMap.umap: [Compiler] This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2024.05.05-07.45.37:659][662]LogBlueprint: Error: [AssetLog] F:\Github\Unreal_Engine_Projects\C++ Assignments\DemoProject\Content\ThirdPerson\Maps\ThirdPersonMap.umap: [Compiler] The property associated with  W HUD Ref  could not be found in '/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap_C'
+[2024.05.05-07.45.37:808][662]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2024.05.05-07.45.44:929][863]BlueprintLog: New page: Compile ThirdPersonMap
+[2024.05.05-07.45.44:932][863]LogBlueprint: Error: [AssetLog] F:\Github\Unreal_Engine_Projects\C++ Assignments\DemoProject\Content\ThirdPerson\Maps\ThirdPersonMap.umap: [Compiler] Can't connect pins  Target  and  W HUD Ref : Widget Object Reference is not compatible with Object Reference.
+[2024.05.05-07.45.44:933][863]LogBlueprint: Error: [AssetLog] F:\Github\Unreal_Engine_Projects\C++ Assignments\DemoProject\Content\ThirdPerson\Maps\ThirdPersonMap.umap: [Compiler] Can't connect pins  W HUD Ref  and  Target : Object Reference is not compatible with Widget Object Reference.
+[2024.05.05-07.45.44:933][863]LogBlueprint: Warning: [AssetLog] F:\Github\Unreal_Engine_Projects\C++ Assignments\DemoProject\Content\ThirdPerson\Maps\ThirdPersonMap.umap: [Compiler] Could not find a variable named "W_HUD_ref" in 'ThirdPersonMap'.
+Make sure 'ThirdPersonMap' has been compiled for  Get W_HUD_ref
+[2024.05.05-07.45.44:934][863]LogBlueprint: Error: [AssetLog] F:\Github\Unreal_Engine_Projects\C++ Assignments\DemoProject\Content\ThirdPerson\Maps\ThirdPersonMap.umap: [Compiler] This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2024.05.05-07.45.44:935][863]LogBlueprint: Error: [AssetLog] F:\Github\Unreal_Engine_Projects\C++ Assignments\DemoProject\Content\ThirdPerson\Maps\ThirdPersonMap.umap: [Compiler] The property associated with  W HUD Ref  could not be found in '/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap_C'
+[2024.05.05-07.45.45:070][863]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2024.05.05-07.47.44:051][609]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2024.05.05-07.47.44:087][609]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Maps/ThirdPersonMap_Auto1
+[2024.05.05-07.47.44:087][609]LogSavePackage: Moving 'F:/Github/Unreal_Engine_Projects/C++ Assignments/DemoProject/Saved/ThirdPersonMap_Auto12680F5FD4C3F8195E6D6B0AEF0826E6C.tmp' to 'F:/Github/Unreal_Engine_Projects/C++ Assignments/DemoProject/Saved/Autosaves/Game/ThirdPerson/Maps/ThirdPersonMap_Auto1.umap'
+[2024.05.05-07.47.44:097][609]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.155
+[2024.05.05-07.47.44:097][609]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.155
+[2024.05.05-07.49.03:338][763]BlueprintLog: New page: Compile ThirdPersonMap
+[2024.05.05-07.49.03:342][763]LogBlueprint: Error: [AssetLog] F:\Github\Unreal_Engine_Projects\C++ Assignments\DemoProject\Content\ThirdPerson\Maps\ThirdPersonMap.umap: [Compiler] The type of  Object  is undetermined.  Connect something to  Cast To BP_Menu_GameMode  to imply a specific type.
+[2024.05.05-07.49.03:342][763]LogBlueprint: Error: [AssetLog] F:\Github\Unreal_Engine_Projects\C++ Assignments\DemoProject\Content\ThirdPerson\Maps\ThirdPersonMap.umap: [Compiler] The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2024.05.05-07.49.03:492][763]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2024.05.05-07.49.25:657][397]BlueprintLog: New page: Compile ThirdPersonMap
+[2024.05.05-07.49.25:661][397]LogBlueprint: Error: [AssetLog] F:\Github\Unreal_Engine_Projects\C++ Assignments\DemoProject\Content\ThirdPerson\Maps\ThirdPersonMap.umap: [Compiler] The type of  Object  is undetermined.  Connect something to  Cast To W_Victory  to imply a specific type.
+[2024.05.05-07.49.25:661][397]LogBlueprint: Error: [AssetLog] F:\Github\Unreal_Engine_Projects\C++ Assignments\DemoProject\Content\ThirdPerson\Maps\ThirdPersonMap.umap: [Compiler] The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2024.05.05-07.49.25:810][397]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2024.05.05-07.49.34:725][649]BlueprintLog: New page: Compile ThirdPersonMap
+[2024.05.05-07.49.34:728][649]LogBlueprint: Warning: [AssetLog] F:\Github\Unreal_Engine_Projects\C++ Assignments\DemoProject\Content\ThirdPerson\Maps\ThirdPersonMap.umap: [Compiler] 'W Victory' does not inherit from 'BP Menu Game Mode' ( Cast To W_Victory  would always fail).
+[2024.05.05-07.49.34:865][649]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2024.05.05-07.51.36:027][ 92]LogContentBrowser: Attempting asset rename: MainMenuMap -> MainMenuMap
+[2024.05.05-07.52.02:442][835]BlueprintLog: New page: Compile ThirdPersonMap
+[2024.05.05-07.52.02:587][835]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2024.05.05-07.52.03:554][860]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.05-07.52.03:655][860]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/2C/5BBIU25VC0G54Y8ZJB88A6
+[2024.05.05-07.52.03:656][860]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.05-07.52.03:662][860]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/2C/5BBIU25VC0G54Y8ZJB88A6
+[2024.05.05-07.52.03:662][860]LogSavePackage: Moving 'F:/Github/Unreal_Engine_Projects/C++ Assignments/DemoProject/Saved/5BBIU25VC0G54Y8ZJB88A6271394CF4DE758116E17D6AE7B8BC247.tmp' to 'F:/Github/Unreal_Engine_Projects/C++ Assignments/DemoProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/2C/5BBIU25VC0G54Y8ZJB88A6.uasset'
+[2024.05.05-07.52.03:669][860]LogFileHelpers: InternalPromptForCheckoutAndSave took 14 ms (total: 1.64 sec)
+[2024.05.05-07.52.03:669][860]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/2C/5BBIU25VC0G54Y8ZJB88A6
+[2024.05.05-07.52.03:765][860]LogUObjectHash: Compacting FUObjectHashTables data took   5.49ms
+[2024.05.05-07.52.03:787][860]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/ThirdPersonMap
+[2024.05.05-07.52.03:788][860]LogSavePackage: Moving 'F:/Github/Unreal_Engine_Projects/C++ Assignments/DemoProject/Saved/ThirdPersonMap90A4153241751E0484BC2F88A438D1B9.tmp' to 'F:/Github/Unreal_Engine_Projects/C++ Assignments/DemoProject/Content/ThirdPerson/Maps/ThirdPersonMap.umap'
+[2024.05.05-07.52.03:811][860]LogFileHelpers: Saving map 'ThirdPersonMap' took 0.157
+[2024.05.05-07.52.03:821][860]LogFileHelpers: InternalPromptForCheckoutAndSave took 267 ms (total: 1.91 sec)
+[2024.05.05-07.52.03:843][860]AssetCheck: New page: Asset Save: multiple assets
+[2024.05.05-07.52.03:843][860]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_D8CB8AEFA4FB85F201_1684471119
+[2024.05.05-07.52.03:843][860]LogContentValidation: Display: Validating /Script/Engine.World /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap
+[2024.05.05-07.52.18:195][265]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.05-07.52.18:209][265]LogContentBundle: [Container: ThirdPersonMap] Generating Streaming for 0 Content Bundles.
+[2024.05.05-07.52.18:215][265]LogWorldPartition: Display: GenerateStreaming started...
+[2024.05.05-07.52.18:215][265]LogWorldPartition: Display: GetPartitionedActors started...
+[2024.05.05-07.52.18:215][265]LogWorldPartition: Display: GetPartitionedActors took 15 us (total: 50 us)
+[2024.05.05-07.52.18:216][265]LogWorldPartition: Display: GenerateStreaming took 1 ms (total: 225 ms)
+[2024.05.05-07.52.18:220][265]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.05-07.52.18:220][265]PIE: New page: PIE session: ThirdPersonMap (May 4, 2024, 5:52:18 PM)
+[2024.05.05-07.52.18:221][265]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.05.05-07.52.18:233][265]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012718s)
+[2024.05.05-07.52.18:233][265]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.012777s)
+[2024.05.05-07.52.18:233][265]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.05-07.52.18:234][265]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.05.05-07.52.18:234][265]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2024.05.05-07.52.18:234][265]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.05.05-07.52.18:235][265]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2024.05.05-07.52.18:238][265]LogContentBundle: [Container: ThirdPersonMap] Creating new contrainer.
+[2024.05.05-07.52.18:238][265]LogWorldPartition: Display: WorldPartition initialize took 3 ms (total: 2.02 sec)
+[2024.05.05-07.52.18:238][265]LogPlayLevel: PIE: World Init took: (0.005400s)
+[2024.05.05-07.52.18:327][265]LogUObjectHash: Compacting FUObjectHashTables data took   5.89ms
+[2024.05.05-07.52.18:329][265]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2024.05.05-07.52.18:329][265]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.05-07.52.18:329][265]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.05-07.52.18:329][265]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.05-07.52.18:329][265]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.05-07.52.18:329][265]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.05-07.52.18:329][265]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.05.05-07.52.18:329][265]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.05-07.52.18:329][265]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.05-07.52.18:329][265]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.05-07.52.18:329][265]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.05-07.52.18:329][265]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.05-07.52.18:334][265]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.05-07.52.18:932][265]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2024.05.05-07.52.18:932][265]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.05-07.52.18:932][265]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.05-07.52.18:932][265]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.05-07.52.18:934][265]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2024.05.05-07.52.18:934][265]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=7
+[2024.05.05-07.52.18:939][265]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2024.05.05-07.52.18:939][265]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2024.05.05-07.52.18:939][265]LogInit: FAudioDevice initialized.
+[2024.05.05-07.52.18:939][265]LogAudio: Display: Audio Device (ID: 7) registered with world 'ThirdPersonMap'.
+[2024.05.05-07.52.18:943][265]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.05.05-07.52.18:947][265]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2024.05.05-00.52.18
+[2024.05.05-07.52.18:948][265]LogWorld: Bringing up level for play took: 0.004987
+[2024.05.05-07.52.18:951][265]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2024.05.05-07.52.18:956][265]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=330.000 Y=270.000 Z=122.213
+[2024.05.05-07.52.18:956][265]PIE: Server logged in
+[2024.05.05-07.52.18:957][265]PIE: Play in editor total start time 0.747 seconds.
+[2024.05.05-07.52.42:725][870]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.05-07.52.42:725][870]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.05.05-07.52.42:725][870]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.05.05-07.52.42:726][870]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.05-07.52.42:726][870]LogContentBundle: [Container: ThirdPersonMap] Deleting container.
+[2024.05.05-07.52.42:784][870]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.05-07.52.42:791][870]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.05-07.52.42:884][870]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.05-07.52.42:885][870]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.05.05-07.52.42:888][870]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.05.05-07.52.42:909][870]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2024.05.05-07.52.43:062][871]LogPlayLevel: Display: Destroying online subsystem :Context_26
